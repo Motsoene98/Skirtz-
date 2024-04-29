@@ -1,0 +1,27 @@
+.topnav{
+	background-image: url ("images(1).jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height:20px;
+	background-position:center;
+}
+
+.topnav a{
+	float:right;
+	color:green;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-size: 19px;
+}
+
+.topnav a:hover{
+	background-color: red;
+	color: purple;
+}
+
+.topnav a.active{
+	background-color:orange;
+	color:white;
+}
+
